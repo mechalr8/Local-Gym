@@ -11,7 +11,7 @@ body{
 .left{
     position: absolute;
     left: 34px;
-    top: 12px;
+    top: 2px;
     display: inline-block;
     /* border: 2px solid red; */
 }
@@ -26,15 +26,15 @@ body{
 .middle{
     display: block;
     width: 35%;
-    margin: 12px auto;
-    border: 2px solid green;
+    margin: 22px auto;
+    /* border: 2px solid green; */
 }
 .right{
     position: absolute;
     right: 34px;
-    top: 12px;
+    top: 35px;
     display: inline-block;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     
 }
 .btn{
@@ -76,10 +76,10 @@ body{
     font-weight: bold;
 }
 .container{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 10px;
     width: 33%;
-    margin: 137px 76px;
+    margin: 137px 50px;
     padding: 66px 46px;
     color: white;
     font-weight: bold;
@@ -100,8 +100,9 @@ body{
     color: white;
     text-shadow: 2px 2px 2px black;
 }
-.formGroup button{
-    align-content: right;
+.container button{
+    display: block;
+    margin: 0px 0px 0px 360px;
 }
 ::placeholder{
     color: white;
