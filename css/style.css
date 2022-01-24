@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/gym.png);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 12px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.left img{
+    width: 80px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    font-size: 15px;
+}
+.middle{
+    display: block;
+    width: 35%;
+    margin: 12px auto;
+    border: 2px solid green;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 12px;
+    display: inline-block;
+    border: 2px solid yellow;
+    
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 6px 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px grey;
+}
+.btn:hover{
+    color: grey;
+}
+.navbar{
+    display: inline-block;
+    font-size: 18px;
+    /* background-color: black; */
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 23px 23px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+.header{
+    font-weight: bold;
+}
+.container{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 33%;
+    margin: 137px 76px;
+    padding: 66px 46px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+.formGroup input{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin: 3px auto;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.formGroup button{
+    align-content: right;
+}
+::placeholder{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+h2{
+    text-align: center;
+}
